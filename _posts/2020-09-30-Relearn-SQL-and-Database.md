@@ -13,7 +13,7 @@ After a few Google search, I settled on quickly reading through these two books 
 
 I borrowed these two books from OverDrive using my library account, and loaded them into my Kobo Forma ebook reader. Here we go.
 
-![](../_imgs/sql_books.jpeg)
+![](/assets/img/sql_books.jpeg)
 
 ## Getting Started with SQL
 - [x] Why Learn SQL

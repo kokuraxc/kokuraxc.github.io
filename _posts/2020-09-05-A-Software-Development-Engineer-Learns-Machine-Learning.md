@@ -2,7 +2,6 @@
 layout: page
 title: "A Software Development Engineer Learns Machine Learning"
 date: 2020-09-05
-categories: Data-Science Machine-Learning Coursera
 ---
 
 > The journey of how I am switching my track to data scientist in the mid-career
@@ -21,7 +20,7 @@ I guess nothing would be difficult if you work hard enough.
 
 I’m setting off on the journey of becoming a data scientist now. And I’ll keep the journal here.
 
-![](../_imgs/journey_trail.jpeg)
+![](/assets/img/journey_trail.jpeg)
 
 ---
 
@@ -29,7 +28,7 @@ I’m setting off on the journey of becoming a data scientist now. And I’ll ke
 
 I’ve started reading the book *Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow* by *Aurelien Geron*. I’ll update my progress here frequently.
 
-![](../_imgs/hands_on_ml.jpeg)
+![](/assets/img/hands_on_ml.jpeg)
 
 - [x] Chapter 1: The Machine Learning Landscape 🚩 *[Completed on Sep 10, 2020]* (Now I understand how hard it is to keep on learning while working on a full time job. This week job was busy; I hardly had time for Andrew’s Machine Learning course. Luckily I always read some pages of the book while in bed before going to sleep. Thus had this chapter finished last night. Yeah! As I was starting out with both the book and the course at the same time, I can find some similar concepts in both sources. It’s kind of reinforcing my understanding of the field.)
 - [ ] Chapter 2: End-to-End Machine Learning Project 👈
@@ -94,7 +93,7 @@ Back in the old middle school days, I was still good and math and numbers. But e
 
 Week 3 of ML course was tough. I worked hard to follow the contents of the lectures. And the assignments of converting the math equations into Matlab codes almost dazed me. Luckily and surprisingly I completely all the assignments! Yeaahh!
 
-![](../_imgs/100_points.png)
+![](/assets/img/100_points.png)
 
 The hardest part is getting started. Now that I’m on track already, I’m sure I’ll be OK!
 
