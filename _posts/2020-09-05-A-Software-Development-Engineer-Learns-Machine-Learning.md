@@ -1,3 +1,10 @@
+---
+layout: page
+title: "A Software Development Engineer Learns Machine Learning"
+date: 2020-09-05
+categories: Data-Science Machine-Learning Coursera
+---
+
 > The journey of how I am switching my track to data scientist in the mid-career
 
 I’ve been interested in machine learning and data science for quite a while, but never really dived into the field to understand thoroughly how they work.
