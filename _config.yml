@@ -1,7 +1,6 @@
 title: Zhengjin's Blog
-author:
-  name: Guo Zhengjin
-  email: guo.zhengjin@gmail.com
+author: Guo Zhengjin
+email: guo.zhengjin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm documenting my data science and machine learning learning journey here.
 
