@@ -1,10 +1,3 @@
----
-layout: page
-title: "Re-learn SQL and Database"
-date: 2020-09-30
-categories: Data-Science SQL
----
-
 > Track how I refresh my database knowledge
 
 It’s been over two years, but I still recall clearly how I couldn’t explain clearly to the interviews the benefits of using [views](https://en.wikipedia.org/wiki/View_(SQL)) over tables in database design. This is one of the reasons why I’m re-picking up this field again, the other reason being that I’m learning machine learning and data science now.
