@@ -70,10 +70,10 @@ One of the most recommended courses on Coursera is Machine Learning by Andrew Ng
   * Neural Networks: Representation
 - [x] Week 5🚩[Completed on Oct 3, 2020] [Following the equations, I successfully implemented the functions in MatLab. But I need to go through more iterations on the fundamental concepts to fully understand them. Luckily there are enough online courses available now. I’ve already saved a few for future learning.]
   * Neural Networks: Learning
-- [ ] Week 6👈
+- [x] Week 6🚩[Completed on Oct 10, 2020] 
   * Advice for Applying Machine Learning
   * Machine Learning System Design
-- [ ] Week 7
+- [ ] Week 7👈
   * Support Vector Machines
 - [ ] Week 8
   * Unsupervised Learning
@@ -98,3 +98,13 @@ Week 3 of ML course was tough. I worked hard to follow the contents of the lectu
 The hardest part is getting started. Now that I’m on track already, I’m sure I’ll be OK!
 
 Fighting! ✊
+
+> Oct 11, 2020:
+
+There is a 2-day rule to follow while building a habit, of which you should avoid missing your daily habit two days in a row. Otherwise, you may risk losing the momentum of keeping with the habit.
+
+This week the same thing happened to my ML course: I didn't pick up the course material for four consecutive days, to such an extent that I thought I would miss this week's assignment deadline.
+
+Lucily deep down I knew that I have to do this, to finish the course. The determination won over the fear of the imagined difficulty of ML.
+
+Week 6 was conquered. And I, should never lose faith in myself.
