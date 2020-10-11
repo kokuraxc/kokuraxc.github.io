@@ -2,8 +2,7 @@
 
 # Python
 
-#### _2020.10.08_
-## Genearte package list: `requirements.txt` file
+#### _2020.10.08_ **Genearte package list: `requirements.txt` file**
 
 Before copying the Python program from dev computer to other computers, extract all the required packages with the command:
 
@@ -18,7 +17,7 @@ In other computers, run the command `pip install -r requirements.txt` to install
 
 # MatLab
 
-#### _2020.10.12_
+#### _2020.10.12_ **`sum`, `repmat`, and `randperm`**
 
 `S = sum(A,dim)` returns the [sum](https://www.mathworks.com/help/matlab/ref/sum.html) along dimension dim. For example, if A is a matrix, then sum(A,2) is a column vector containing the sum of each row.
 ```matlab
