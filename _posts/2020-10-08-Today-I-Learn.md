@@ -1,8 +1,9 @@
 > Collection of bits of TILs
 
+---
 # Python
 
-#### _2020.10.08_ **Genearte package list: `requirements.txt` file**
+#### _2020.10.08_ **Genearte package list's `requirements.txt` file**
 
 Before copying the Python program from dev computer to other computers, extract all the required packages with the command:
 
@@ -12,6 +13,25 @@ Before copying the Python program from dev computer to other computers, extract 
 This will generate a `requirements.txt` file with all the package names and versions.
 
 In other computers, run the command `pip install -r requirements.txt` to install all the required packages.
+
+---
+#### _2020.10.13_ 
+
+**To reverse a string `str` or list `lst`**, do this: `str = str[::-1]`.
+
+**Set**
+* Sets are unordered.
+* Set elements are unique. Duplicate elements are not allowed.
+* A set itself may be modified, but the elements contained in the set must be of an immutable type.
+```python
+s = 'quux'
+>>> set(s)
+{'x', 'u', 'q'}
+
+# check if there is duplicated elements
+if len(s) > len(set(s)):
+     pass
+```
 
 ---
 
