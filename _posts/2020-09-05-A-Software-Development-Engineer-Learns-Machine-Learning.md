@@ -67,9 +67,9 @@ One of the most recommended courses on Coursera is Machine Learning by Andrew Ng
 - [x] Week 6🚩[Completed on Oct 10, 2020] 
   * Advice for Applying Machine Learning
   * Machine Learning System Design
-- [ ] Week 7👈
+- [x] Week 7🚩[Completed on Oct 18, 2020] [Work was busy for this week as two milestones are due next week. Fortunately this week's assignments were not hard to crack. SVM as a abbreviation for Support Vector Machines was a myth to me before this week's lecture; it didn't fit into machine learning world. I learned something new. Also gained confidence. :v:]
   * Support Vector Machines
-- [ ] Week 8
+- [ ] Week 8👈
   * Unsupervised Learning
   * Dimensionality Reduction
 - [ ] Week 9
