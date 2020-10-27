@@ -69,15 +69,15 @@ One of the most recommended courses on Coursera is Machine Learning by Andrew Ng
   * Machine Learning System Design
 - [x] Week 7🚩[Completed on Oct 18, 2020] [Work was busy for this week as two milestones are due next week. Fortunately this week's assignments were not hard to crack. SVM as a abbreviation for Support Vector Machines was a myth to me before this week's lecture; it didn't fit into machine learning world. I learned something new. Also gained confidence. :v:]
   * Support Vector Machines
-- [ ] Week 8👈
+- [x] Week 8🚩[Completed on Oct 23, 2020] [The course has become easier since the unsupervised learning part. The Dimensionality Reduction is very useful but easy to grasp.]
   * Unsupervised Learning
   * Dimensionality Reduction
-- [ ] Week 9
+- [x] Week 9🚩[Completed on Oct 26, 2020] [The course material and assignment are even more easier this week.]
   * Anomaly Detection
   * Recommender Systems
-- [ ] Week 10
+- [x] Week 10🚩[Completed on Oct 26, 2020] [There is no assignment for this week! Only quizs!]
   * Large Scale Machine Learning
-- [ ] Week 11
+- [ ] Week 11👈
   * Application Example: Photo OCR
 
 > Sep 26, 2020:

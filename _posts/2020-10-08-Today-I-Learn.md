@@ -20,9 +20,11 @@ In other computers, run the command `pip install -r requirements.txt` to install
 **To reverse a string `str` or list `lst`**, do this: `str = str[::-1]`.
 
 **Set**
+
 * Sets are unordered.
 * Set elements are unique. Duplicate elements are not allowed.
 * A set itself may be modified, but the elements contained in the set must be of an immutable type.
+  
 ```python
 s = 'quux'
 >>> set(s)
@@ -94,4 +96,24 @@ r1 = randperm(8,4)
 > r1 = 1×4
 
      6     4     7     3
+```
+
+---
+
+#### _2020.10.23_ 
+
+**Get the index of the min/max vlaue of the vector/array**
+```matlab
+[M, I] = min(A)
+% where M - is the minimun value
+% I - is the index of the minimum value
+% Similarly, it works for the max
+```
+
+**Get the mean of the array group by one column**
+```matlab
+X = [X idx];
+centroids = grpstats(X(:, 1:n), X(:, (n+1)), "mean");
+% get the mean of the 1~n columns
+% group by the n+1 column values
 ```
