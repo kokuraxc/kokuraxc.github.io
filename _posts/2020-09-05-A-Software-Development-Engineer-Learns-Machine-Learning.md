@@ -77,7 +77,7 @@ One of the most recommended courses on Coursera is Machine Learning by Andrew Ng
   * Recommender Systems
 - [x] Week 10🚩[Completed on Oct 26, 2020] [There is no assignment for this week! Only quizs!]
   * Large Scale Machine Learning
-- [ ] Week 11👈
+- [x] Week 11🚩[Completed on Oct 27, 2020]
   * Application Example: Photo OCR
 
 > Sep 26, 2020:
@@ -102,3 +102,15 @@ This week the same thing happened to my ML course: I didn't pick up the course m
 Lucily deep down I knew that I have to do this, to finish the course. The determination won over the fear of the imagined difficulty of ML.
 
 Week 6 was conquered. And I, should never lose faith in myself.
+
+---
+
+> Oct 29, 2020:
+
+Whoa, I didn't expect I would be so peaceful when I completed the Machine Learning course! I know that I've learnt a lot from this course. And I understand that I still have a long way to go.
+
+Yesterday I started the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning) offered by University ofWashington. Of the four courses in the specialization, the first one introduces ML with a very fast-paced case study approach. I'm glad that I took Prof. Andrew Ng's ML first. That's why I had no difficulty following up with this new course.
+
+Today I also started reading the book of [Supervised Machine Learning with Python](https://www.packtpub.com/product/supervised-machine-learning-with-python/9781838825669). I'm not sure whether it'll be as good as the Hands-on book. But as I can only get this one from the local library, I'll start with it first.
+
+![](/assets/img/supervised-machine-learning.jpg)
