@@ -117,3 +117,15 @@ centroids = grpstats(X(:, 1:n), X(:, (n+1)), "mean");
 % get the mean of the 1~n columns
 % group by the n+1 column values
 ```
+
+---
+#### _2021.05.18_ React
+
+How to reference a local image in React?
+```js
+// first import the image
+import logo from '../images/logo.png';
+
+// then use it in img
+<img src={logo} />
+```
