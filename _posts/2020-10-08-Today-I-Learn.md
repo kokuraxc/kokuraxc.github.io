@@ -119,9 +119,30 @@ centroids = grpstats(X(:, 1:n), X(:, (n+1)), "mean");
 ```
 
 ---
-#### _2021.05.18_ React
+#### _2021.05.12_ C#, SignalR: JSON camelCase names
 
-How to reference a local image in React?
+By default SignalR will convert the first letter of the Dictionary keys to lower case when it serializes and sends the Dictionary to clients.
+
+In server:
+```json
+"JobDelay": [ ]
+```
+What the clients receive will be:
+```json
+"jobDelay": [ ]
+```
+To prevent this from happening, add the following to *startup.cs*.
+
+```cs
+services.AddSignalR().AddJsonProtocol(options =>
+{
+   options.PayloadSerializerOptions.PropertyNamingPolicy = null;
+});
+```
+
+---
+#### _2021.05.18_ React: How to reference a local image in React? 
+
 ```js
 // first import the image
 import logo from '../images/logo.png';
