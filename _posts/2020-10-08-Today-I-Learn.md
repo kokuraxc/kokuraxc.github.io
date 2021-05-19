@@ -141,6 +141,37 @@ services.AddSignalR().AddJsonProtocol(options =>
 ```
 
 ---
+#### _2021.05.18_ CSS: Position child element in the lower right corner
+
+What the end result looks like?
+
+![](/assets/img/dashboard_card.jpeg)
+
+How to do? 
+
+1. Set the parent container's `position` as `relative`.
+2. Set the child element's `position` as `absolute`.
+
+The HTML:
+```html
+<div class="box">
+    <!-- stuff -->
+    <p class="bet_time">Bet 5 days ago</p>
+</div>
+```
+The CSS:
+```css
+.box {
+    position:relative;
+}
+.bet_time {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+```
+
+---
 #### _2021.05.18_ React: How to reference a local image in React? 
 
 ```js
