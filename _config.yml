@@ -1,8 +1,8 @@
-title: kokuraxc's Blog
-author: Kokura XC
+title: Guo Zhengjin's Blog
+author: Guo Zhengjin
 # email: guo.zhengjin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm documenting my data science and machine learning learning journey here.
+  A software developer's technical blog. #Python #CSharp #DataScience #MachineLearning #Visualization
 
 # social links
 #twitter_username: liudongqiang # DO NOT include the @ character, or else the build will fail!
