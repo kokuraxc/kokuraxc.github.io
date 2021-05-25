@@ -20,7 +20,7 @@ As you can see from the above output, all the fourth elements of the inner lists
 
 This is not what I wanted.
 
-Reading this [stack**overflow**](https://stackoverflow.com/questions/21036140/python-two-dimensional-array-changing-an-element) post, I realized *"the middle items are all referring to the same list, so updating one causes the change to be reflected in the others"*. That's a side effect of the way how I constructed the list.
+Reading this [stack**overflow**](https://stackoverflow.com/questions/21036140/python-two-dimensional-array-changing-an-element) post, I realized *"the middle items are all referring to the same list, so updating one causes the change to be reflected in the others"*. That's a side effect of the way how I constructed the list with `dp = [[0] * 5] * 3`.
 
 To avoid this issue, the *correct* way to follow is:
 ```py
@@ -30,7 +30,7 @@ dp = [[0] * 5 for _ in range(3)]
 [0, 0, 0, 0, 0], 
 [0, 0, 0, 0, 0]]
 ```
-Now,
+This way the inner lists are unlinked. Now,
 ```py
 dp[2][3] = 5
 >>>
