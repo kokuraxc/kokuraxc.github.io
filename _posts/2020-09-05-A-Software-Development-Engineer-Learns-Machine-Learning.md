@@ -111,6 +111,6 @@ Whoa, I didn't expect I would be so peaceful when I completed the Machine Learni
 
 Yesterday I started the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning) offered by University ofWashington. Of the four courses in the specialization, the first one introduces ML with a very fast-paced case study approach. I'm glad that I took Prof. Andrew Ng's ML first. That's why I had no difficulty following up with this new course.
 
-Today I also started reading the book of [Supervised Machine Learning with Python](https://www.packtpub.com/product/supervised-machine-learning-with-python/9781838825669). I'm not sure whether it'll be as good as the Hands-on book. But as I can only get this one from the local library, I'll start with it first.
+Today I also started reading the book of [Supervised Machine Learning with Python](https://www.packtpub.com/product/supervised-machine-learning-with-python/9781838825669). I'm not sure whether it'll be as good as the Hands-on book. But as I can only get the paper book for this one from the local library, I'll start with it first.
 
 ![](/assets/img/supervised-machine-learning.jpg)
