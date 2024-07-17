@@ -12,19 +12,19 @@ wsl --install -d Ubuntu
 I'm seting up a Quorum blockchain using the [Quorum Developer Quickstart](https://consensys.net/docs/goquorum//en/latest/tutorials/quorum-dev-quickstart/).
 
 1. Install Node.js and npm.
-```sh
+```bash
 sudo apt-get update
 sudo apt-get install nodejs npm
 ```
 The above command installed the default Node.js included with Ubuntu 20.04, which, however, is now unsupported and unmaintained. Use the [following command](https://github.com/nodesource/distributions/blob/master/README.md) to install the 16.x LTS version
 
-```sh
+```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
 2. Install docker
-```sh
+```bash
 # 1. Set up the repository
 
 # 1.1 Update the apt package index and install packages to allow apt to use a repository over HTTPS:
@@ -60,25 +60,33 @@ sudo service docker start
 # 3.3 Run the hello-world image
 sudo docker run hello-world
 ```
+
 3. Install Docker Compose
-```sh
+
+```bash
 # 1. Install pip
 sudo apt install python3-pip
 
 # 2. Install Docker Compose
 sudo pip install docker-compose
 ```
+
 4. Install Truffle
-```sh
+
+```bash
 npm install truffle -g
 ```
-5. Run Quorum Developer Quickstart without installation
-```sh
+
+1. Run Quorum Developer Quickstart without installation
+
+```bash
 npx quorum-dev-quickstart
 ```
+
 A `quorum-test-network` will be created. Run *run.sh* to start the test network.
 - The above command will not run correctly, saying *this script requires docker daemon to run. start docker and try again*. The cause is now `docker` can only be run with `sudo`. Follow the following steps to remove the `sudo`. 
-```sh
+
+```bash
 # 1. Create the docker group.
 sudo groupadd docker
 # 2. Add your user to the docker group.
@@ -88,8 +96,10 @@ newgrp docker
 # 4. Verify that you can run docker commands without sudo.
 docker run hello-world
 ``` 
-6. Now run `run.sh`.
-```sh
+
+1. Now run `run.sh`.
+
+```bash
 *************************************
 Quorum Dev Quickstart
 *************************************
@@ -109,14 +119,14 @@ Cake shop is not bundled in Quorum Developer Quickstart.
 
 1. [Set up java first](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04)
    1. Install JRE/JDK first.
-    ```
+    ```bash
     sudo apt update
     java -version
     sudo apt install default-jre
     sudo apt install default-jdk
     ```
    1. Set up `JAVA_HOME`
-    ```
+    ```bash
     sudo update-alternatives --config java
     sudo nano /etc/environment
     # Append JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
@@ -133,7 +143,7 @@ Cake shop is not bundled in Quorum Developer Quickstart.
 ## Interact using Geth
 
 1. Install *geth* [Install on Ubuntu via PPAs](https://geth.ethereum.org/docs/install-and-build/installing-geth#install-on-ubuntu-via-ppas)
-```sh
+```bash
 # To enable our launchpad repository run:
 sudo add-apt-repository -y ppa:ethereum/ethereum
 
@@ -142,7 +152,7 @@ sudo apt-get update
 sudo apt-get install ethereum
 ```
 2. Attach to a node
-```sh
+```bash
 geth attach http://localhost:8545
 ```
 
