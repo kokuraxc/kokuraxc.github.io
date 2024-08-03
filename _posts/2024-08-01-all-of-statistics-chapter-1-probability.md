@@ -19,13 +19,47 @@ Probability is a mathematical language for quantifying uncertainty.
 - $\Omega$: true event (always true)
 
 > Examples: 
-
-If we toss a coin twice, then $\Omega = \{HH, HT, TH, TT\}$. The events that the first toss is head is $A = \{HH, HT\}$.
-
-There is usually no harm in taking the sample space to be larger than needed. 
+>
+> If we toss a coin twice, then $\Omega = \{HH, HT, TH, TT\}$. The events that the first toss is head is $A = \{HH, HT\}$.
+>
+> There is usually no harm in taking the sample space to be larger than needed. 
 
 ### 1.3 Probability
 
+#### Probability distribution
+
+**Definition**: A function $\mathbb P$ that *assigns a real number* $\mathbb P (A)$ *to each event A is a* **probability distribution** *or a* **probability measure** *if it satisfies the following three axioms*:
+1. Axiom 1: $\mathbb P (A) \ge 0$ for every $A$
+2. Axiom 2: $\mathbb P (\Omega) = 1$
+3. Axiom 3: *If* $A_1, A_2, ...$ *are disjoint then*
+$$\mathbb P\left(\bigcup_{i=1}^\infty A_i\right) = \lim_{i=1}^\infty \mathbb P (A_i)$$
+
+#### The two interpretations of $\mathbb P(A)$
+1. **Frequencies**: $\mathbb P(A)$ is the long run proportion of times that $A$ is true in repetitions.
+2. **Degrees of beliefs**: $\mathbb P(A)$ measures an observer's strength of belief that $A$ is true.
+
+#### The two school of inference:
+1. **Frequencies** -> **the frequentist**
+2. **Degrees of beliefs** -> **the Bayesian school**
+
+#### The many properties of $\mathbb P$ derived from the three Axioms.
+
+$$\mathbb P(\emptyset) = 0$$
+$$A \subset B \implies \mathbb P(A) \le \mathbb P(B)$$
+$$0 \le \mathbb P(A) \le 1$$
+$$\mathbb P(A^c) = 1 - \mathbb P(A)$$
+$$A \bigcap B = \emptyset \implies \mathbb P(A \bigcup B) = \mathbb P(A) + \mathbb P(B)$$
+
+#### Lemma 1.6
+
+*For any events $A$ and $B$,*
+$$ \mathbb P(A \bigcup B) = \mathbb P(A) + \mathbb P(B) - \mathbb P(AB)$$
+
+#### Theorem 1.8: Continuity of Probabilities
+
+*If $A_n \to A$ then*
+$$ \mathbb P(A_n) \to \mathbb P(A)$$
+*as $n \to \infty$*.
 
 ### 1.4 Probability on Finite Sample Spaces
 
