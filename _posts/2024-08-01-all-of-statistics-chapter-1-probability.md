@@ -63,6 +63,17 @@ $$ \mathbb P(A_n) \to \mathbb P(A)$$
 
 ### 1.4 Probability on Finite Sample Spaces
 
+#### Uniform probability distribution
+If $\Omega$ is finite and if each outcome is equally likely, then
+$$\mathbb P(A) = {|A| \over |\Omega|}$$
+$|A|$ denotes the number  of elements in $A$.
+
+#### $n$ choose $k$
+- the number of distinct ways of choosing $k$ objects from $n$.
+$${n \choose k} = { n! \over k!(n-k)!} $$
+
+$${n \choose 0} = {n \choose n} $$
+$${n \choose k} = {n \choose {n-k}}$$
 
 ### 1.5 Independent Events
 
