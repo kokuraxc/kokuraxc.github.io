@@ -77,6 +77,19 @@ $${n \choose k} = {n \choose {n-k}}$$
 
 ### 1.5 Independent Events
 
+#### Definition 1.9
+
+*Two events $A$ and $B$ are **independent** if* 
+
+$$\mathbb P(AB) = \mathbb P(A)\mathbb P(B)$$
+
+*and we write $A \perp\kern-5pt\perp B$. A set of events $\{A_i: i \in I\}$ is independent if*
+
+$$\mathbb P \left( \bigcap_{i \in J} A_i \right) = \prod_{i \in J} \mathbb P(A_i)$$
+
+> Suppose that $A$ and $B$ are disjoint events, each with positive probability. Can they be independent? 
+> 
+> No. This follows since $\mathbb P(A) \mathbb P(B) > 0$ yet $\mathbb P(AB) = \mathbb P(\emptyset) = 0$. $\mathbb P(A) \mathbb P(B) \ne \mathbb P(AB)$.
 
 ### 1.6 Conditional Probability
 
